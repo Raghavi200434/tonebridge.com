@@ -20,7 +20,7 @@ function updateEmotionDisplay(emotion) {
   }
   
   const signVideos = {
-    "Hello": url"https://github.com/Raghavi200434/tonebridge.com/raw/refs/heads/main/videos/Hello.mp4",
+    "Hello": "videos/Hello.mp4",
     "thank you": "videos/thank you.mp4",
     "nice to meet you": "videos/nice to meet you.mp4",
     "good_morning": "videos/good morning.mp4",
