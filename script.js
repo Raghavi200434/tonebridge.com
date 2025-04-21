@@ -23,7 +23,7 @@ function updateEmotionDisplay(emotion) {
     "Hello": "videos/Hello.mp4",
     "thank you": "videos/thank you.mp4",
     "nice to meet you": "videos/nice to meet you.mp4",
-    "good_morning": "videos/good morning.mp4",
+    "good morning": "videos/good morning.mp4",
     "see you later": "videos/see you later.mp4",
     "happy": "videos/happy.mp4",
     "how are you": "videos/how are you.mp4"
