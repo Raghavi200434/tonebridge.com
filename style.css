@@ -293,4 +293,75 @@
     transform: scale(1.1);
   }
   
+  #sign-translator {
+    background: rgba(255, 255, 255, 0.1); /* transparent white */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2), 0 0 25px rgba(0, 255, 255, 0.1); /* glowing effect */
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  #sign-translator h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Optional: make text and inputs stand out more */
+  #sign-translator input[type="text"] {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: border 0.2s, background-color 0.3s;
+  }
+  
+  #sign-translator input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  #sign-translator input[type="text"]:focus {
+    border-color: #00f7ff;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Glowing Button */
+  #sign-translator button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #00f7ff, #1f51ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00f7ff, 0 0 20px #1f51ff;
+    transition: all 0.3s ease;
+  }
+  
+  #sign-translator button:hover {
+    background: linear-gradient(135deg, #1f51ff, #00f7ff);
+    box-shadow: 0 0 20px #00f7ff, 0 0 30px #1f51ff;
+  }
+  
+  /* Video box */
+  #sign-translator video {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
   

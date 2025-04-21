@@ -55,3 +55,20 @@
     </div>
   </section>
   
+
+  <section id="sign-translator">
+    <h1>Sign Language Translator</h1>
+    <input type="text" id="inputText" placeholder="Enter sentence" />
+    <button onclick="startTranslation()">Translate</button>
+  
+    <video id="signVideo" width="300" controls></video>
+  </section>
+  
+  <script src="script.js"></script>
+  <script>
+    function startTranslation() {
+      const text = document.getElementById("inputText").value;
+      playSignSequence(text);
+    }
+  </script>
+  
