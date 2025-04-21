@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToneBridge | Features</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="features-page">
+
+
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.jpg" alt="ToneBridge Logo" class="logo-img" />
+      <span class="logo-text">ToneBridge</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html" class="active">Features</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="features-container">
+    <h1 class="glow-text">Say It Once. We’ll Do the Rest</h1>
+  
+    <div class="feature-row">
+      <div class="feature-card">
+        <h2>🎙️ Speech to Text</h2>
+        <button id="start-record">Start Recording</button>
+        <p id="transcript">Your speech will appear here...</p>
+      </div>
+  
+      <div class="feature-card">
+        <h2>🧠 Emotion Detection</h2>
+        <img id="emotion-img" src="images/emoji1.jpg" alt="Emotion Emoji" class="emoji-img" />
+        <p>Emotion: <span id="emotion">Detecting...</span></p>
+      </div>
+      
+  
+      <div class="feature-card">
+        <h2>🌐 Translate Text</h2>
+        <label for="lang">Choose Language:</label>
+        <select id="lang">
+          <option value="fr">Tamil</option>
+          <option value="es">Spanish</option>
+          <option value="hi">Hindi</option>
+          <option value="de">German</option>
+        </select>
+        <p>Translated: <span id="translated">---</span></p>
+      </div>
+    </div>
+  </section>
+  
